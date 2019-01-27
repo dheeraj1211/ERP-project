@@ -1,0 +1,31 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-1" style="background-color:white; height:700px;border:2px solid lavender;"></div>
+    <div class="col">
+    
+        <div class="row" style="background-color:white;height:70px;border:2px solid lavender;"></div>
+                <div class="row" style="background-color:white;height:630px;border:2px solid lavender;">
+                <div>
+                <button type="button" class="btn" class="a" *ngFor="let arr of top">{{arr}}</button> 
+                <hr class="new1">
+              </div>
+              <div class="b">
+                <div class="tab">
+                  <button class="tablinks" onclick="" *ngFor="let do of down">{{do}}</button>
+                  </div>
+                  <hr class="new2">
+                  <div>Phone: {{data.Phone}}</div>
+                <div>Current Address: {{data.CurrentAddress}}</div>
+                <div>Permanent Address: {{data.PermanentAddress}}</div>
+                  <div>Personal Email: {{data.PersonalEmail}}</div>
+                  <div>Website: {{data.Website}}</div>
+              </div>
+            
+                </div>
+                
+    
+    
+    </div>
+   
+  </div>
+</div>
